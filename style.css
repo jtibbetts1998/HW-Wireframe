@@ -3,48 +3,66 @@ body {
     width: 960px;
     font-size: 18px;
     color: #777;
-    background: #777
+    background: #777;
 }
 
 #h {
-    color: black;
-    width: 10px;
+    color:green;
+    background-color: orange;
+    width: 495px;
 }
 
 #p01 {
-    background: #ebebeb;
+    background-color: blue;
+    color: #ebebeb;
+    width: 495px;
 }
 
 .header {
-    background: #ebebeb;
+    background-color: #ebebeb;
     text-align: center;
+    color: red;
 }
 
 .nav {
-    background: #ebebeb;
+    background-color: #ebebeb;
     text-align: center;
 }
 
-.section {
+#section {
     float: left;
-    width: 495px;
     position: absolute;
-    background: #ebebeb;
-    font: red;
+    background-color: yellow;
+    color: blue;
+    width: 495px;
+}
+
+#article {
+    background-color: purple;
+    color: aqua;
+    width: 495px;
 }
 
 .aside {
-    background: #ebebeb;
+    position: relative;
+    background-color: red;
     float: right;
+    color: violet;
+    height: 100px;
     width: 495px;
+    height: 220px;
+    text-align: center;
 }
 
 .footer {
     background: #ebebeb;
-    width: 100%;
+    width: 960px;
     height: 50px;
     text-align: center;
-    float: bottom;
+    color: green;
 }
-
-
+.container{
+    clear:both;
+    width:960px;
+    height:300px;
+}
